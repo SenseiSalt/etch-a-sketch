@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Etch a Sketch</title>
+            <link href="../etch-a-sketch/style.css" rel="stylesheet"/>
+            <link rel="icon" href="favicon.ico"/>
+            <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        </head>
+
+
+
+        <body>
+            <div class="content">
+            
+                <div class="left">
+                    
+                    
+                    <div id="container">
+                        <input type="color" value="#000000" id="color-picker-input">
+                    
+                    </div>
+                    <div id="rainbow-mode">
+                        <button class="buttons" id="rainbow-mode-button">Random Color</button>
+                    </div>
+
+                    <div id="clear">
+                        <button class="buttons" class="clear-button">Clear</button>
+                    </div>
+
+                    <div class="slider-container">
+                        <p class="grid-size">16 x 16</p>
+                        <input type="range" min="1" max="64" value="16" class="slider"/>
+        
+                    </div>    
+
+
+                </div>
+
+                <div class="right"> 
+                    <div class="heading">
+                        <h1>Etch-A-Sketch</h1>
+
+                    </div>
+
+                    <div class="grid">
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+ 
+            <script src="../etch-a-sketch/function.js"></script>    
+        </body>
+    </html>
